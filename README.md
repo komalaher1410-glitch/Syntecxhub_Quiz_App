@@ -44,7 +44,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/quizmaster.git
+git clone https://github.com/https://github.com/komalaher1410-glitch/quizmaster.git
 cd quizmaster
 ```
 
