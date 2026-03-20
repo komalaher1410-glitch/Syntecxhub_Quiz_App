@@ -1,0 +1,70 @@
+<svg width="680" height="580" viewBox="0 0 680 580" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,serif">
+  <defs>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f0c040"/><stop offset="100%" stop-color="#e05a5a"/></linearGradient>
+    <linearGradient id="prog" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f0c040"/><stop offset="100%" stop-color="#f0c040"/></linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="680" height="580" fill="#0d0d0f"/>
+  <rect width="680" height="580" fill="rgba(240,192,64,0.03)"/>
+
+  <!-- Header -->
+  <circle cx="40" cy="36" r="5" fill="#f0c040"/>
+  <text x="54" y="43" font-family="Georgia,serif" font-size="22" font-weight="900" fill="#f0eff4">QuizMaster</text>
+  <!-- User badge -->
+  <circle cx="580" cy="36" r="14" fill="rgba(240,192,64,0.15)" stroke="rgba(240,192,64,0.3)" stroke-width="1"/>
+  <text x="580" y="41" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f0c040" text-anchor="middle">A</text>
+  <text x="600" y="41" font-family="Arial,sans-serif" font-size="12" fill="#7f7f9a">admin</text>
+  <rect x="636" y="28" width="42" height="18" rx="9" fill="none" stroke="#2a2a32" stroke-width="1"/>
+  <text x="657" y="41" font-family="Arial,sans-serif" font-size="9" fill="#7f7f9a" text-anchor="middle">Log out</text>
+
+  <!-- Progress bar -->
+  <rect x="28" y="64" width="570" height="3" rx="2" fill="#2a2a32"/>
+  <rect x="28" y="64" width="171" height="3" rx="2" fill="#f0c040"/>
+  <text x="612" y="69" font-family="Arial,sans-serif" font-size="10" fill="#7f7f9a" letter-spacing="0.5">3 / 10</text>
+
+  <!-- Card -->
+  <rect x="28" y="86" width="624" height="474" rx="18" fill="#1c1c22" stroke="#2a2a32" stroke-width="1"/>
+  <rect x="28" y="86" width="624" height="3" rx="2" fill="url(#bar2)"/>
+
+  <!-- Question number -->
+  <text x="56" y="122" font-family="Arial,sans-serif" font-size="10" fill="#f0c040" letter-spacing="1.5">QUESTION 3 OF 10</text>
+
+  <!-- Question text -->
+  <text x="56" y="156" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#f0eff4">Who painted the Sistine</text>
+  <text x="56" y="182" font-family="Georgia,serif" font-size="20" font-weight="700" fill="#f0eff4">Chapel ceiling?</text>
+
+  <!-- Option A -->
+  <rect x="56" y="208" width="576" height="48" rx="10" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="66" y="220" width="28" height="28" rx="7" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <text x="80" y="239" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#7f7f9a" text-anchor="middle">A</text>
+  <text x="112" y="237" font-family="Arial,sans-serif" font-size="13" fill="#f0eff4">Leonardo da Vinci</text>
+
+  <!-- Option B -->
+  <rect x="56" y="266" width="576" height="48" rx="10" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="66" y="278" width="28" height="28" rx="7" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <text x="80" y="297" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#7f7f9a" text-anchor="middle">B</text>
+  <text x="112" y="295" font-family="Arial,sans-serif" font-size="13" fill="#f0eff4">Raphael</text>
+
+  <!-- Option C — CORRECT (selected) -->
+  <rect x="56" y="324" width="576" height="48" rx="10" fill="rgba(74,222,128,0.08)" stroke="#4ade80" stroke-width="1.5"/>
+  <rect x="66" y="336" width="28" height="28" rx="7" fill="rgba(74,222,128,0.1)" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="80" y="355" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80" text-anchor="middle">C</text>
+  <text x="112" y="353" font-family="Arial,sans-serif" font-size="13" fill="#f0eff4">Michelangelo</text>
+  <text x="604" y="353" font-family="Arial,sans-serif" font-size="14" fill="#4ade80" text-anchor="middle">✓</text>
+
+  <!-- Option D -->
+  <rect x="56" y="382" width="576" height="48" rx="10" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <rect x="66" y="394" width="28" height="28" rx="7" fill="transparent" stroke="#2a2a32" stroke-width="1.5"/>
+  <text x="80" y="413" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#7f7f9a" text-anchor="middle">D</text>
+  <text x="112" y="411" font-family="Arial,sans-serif" font-size="13" fill="#f0eff4">Donatello</text>
+
+  <!-- Feedback -->
+  <rect x="56" y="440" width="576" height="42" rx="8" fill="rgba(74,222,128,0.08)" stroke="rgba(74,222,128,0.2)" stroke-width="1"/>
+  <text x="72" y="465" font-family="Arial,sans-serif" font-size="11" fill="#86efac">✓ Correct! Michelangelo painted it between 1508–1512 for Pope Julius II.</text>
+
+  <!-- Footer -->
+  <line x1="56" y1="498" x2="632" y2="498" stroke="#2a2a32" stroke-width="1"/>
+  <text x="72" y="524" font-family="Arial,sans-serif" font-size="12" fill="#7f7f9a">Score: <tspan fill="#f0c040" font-weight="600">2</tspan></text>
+  <rect x="510" y="506" width="110" height="36" rx="18" fill="#f0c040"/>
+  <text x="565" y="529" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0d0d0f" text-anchor="middle">Next →</text>
+</svg>
